@@ -4,6 +4,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -39,3 +42,19 @@ html {
     padding: 10px 20px;
 }
 
+#logo {
+    width: 150px;
+}
+
+#inicio .contenido header .contenido-header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#inicio .contenido header .contenido-header nav ul  li a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 12px;
+    font-family: 'Comfortaa', cursive;
+}
