@@ -1,6 +1,9 @@
-/*li {
-    display: inline-block;
-}*/
+/*
+
+para el logo uno
+filter: invert(79%) sepia(55%) saturate(3136%) hue-rotate(0deg) brightness(105%) contrast(101%);
+
+*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
 
@@ -34,7 +37,7 @@ html {
 }
 
 #inicio .contenido header .contenido-header{
-    max-width: 1100px;
+    max-width: 1300px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -43,7 +46,7 @@ html {
 }
 
 #logo {
-    width: 150px;
+    width: 180px;
 }
 
 #inicio .contenido header .contenido-header nav ul {
@@ -56,5 +59,63 @@ html {
     text-decoration: none;
     color: #ffffff;
     margin: 0 12px;
+    font-weight: 400;
     font-family: 'Comfortaa', cursive;
+    transition: .5s;
+}
+
+#inicio .contenido header .contenido-header nav ul  li a:hover {
+    color: #FFC300;
+}
+
+#inicio .contenido header .contenido-header #icon-nav {
+    display: none;
+}
+
+/*#inicio .contenido header .contenido-header .redes {
+    width: 99px;
+    height: 40px;
+}
+
+/*#inicio .contenido header .contenido-header .redes a {
+    border: 1px solid #c3c3c3;
+    width: 33px;
+    height: 100%;
+    /*
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}*/
+
+#inicio .contenido header .contenido-header .redes a i{
+    color: #FFC300;
+}
+
+#inicio .contenido header .contenido-header .redes a i:hover{
+    color: #ffe17e;
+    font-size: 1.3em;
+}
+
+#inicio .contenido .presentacion{
+    max-width: 1300px;
+    height: 100vh;
+    margin:auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inicio .contenido .presentacion .bienvenida {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#inicio .contenido .presentacion h2 {
+    font-size: 55px;
+    margin-bottom: 25px;
+    text-align: center;
 }
