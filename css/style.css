@@ -9,6 +9,10 @@ filter: invert(79%) sepia(55%) saturate(3136%) hue-rotate(0deg) brightness(105%)
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap');
 
+@font-face {
+    font-family: Good-Times;
+    src: url(./fonts/good\ times\ rg.otf);
+}
 
 * {
     margin: 0;
@@ -72,28 +76,28 @@ html {
     display: none;
 }
 
-/*#inicio .contenido header .contenido-header .redes {
-    width: 99px;
+#inicio .contenido header .contenido-header .redes {
+    width: 100px;
     height: 40px;
+    display: flex;
 }
 
-/*#inicio .contenido header .contenido-header .redes a {
-    border: 1px solid #c3c3c3;
-    width: 33px;
+#inicio .contenido header .contenido-header .redes div {
+    width: 33%;
     height: 100%;
-    /*
-    flex-direction: row;
+    display: flex;
     justify-content: space-around;
     align-items: center;
-}*/
+}
 
 #inicio .contenido header .contenido-header .redes a i{
     color: #FFC300;
+    font-size: 1.3em;
 }
 
 #inicio .contenido header .contenido-header .redes a i:hover{
     color: #ffe17e;
-    font-size: 1.3em;
+    font-size: 2em;
 }
 
 #inicio .contenido .presentacion{
@@ -118,4 +122,10 @@ html {
     font-size: 55px;
     margin-bottom: 25px;
     text-align: center;
+}
+
+#inicio .contenido .presentacion h2 span{
+    font-size: 25px;
+    color: #FFC300;
+    font-family: Good-Times;
 }
