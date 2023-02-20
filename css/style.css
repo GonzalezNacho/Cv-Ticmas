@@ -167,3 +167,23 @@ html {
     font-size: 1.15em;
     text-align: center;
 }
+
+#sobremi {
+    max-width: 1300px;
+    margin: auto;
+    padding: 100px 15 px;
+    color: #111135;
+    display: flex;
+}
+
+#sobremi .contenedor-foto {
+    max-width: 400px;
+    margin-right: 80px;
+}
+
+#sobremi .contenedor-foto img {
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #f3f3f3;
+}
