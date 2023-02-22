@@ -47,10 +47,6 @@ html {
     filter: invert(79%) sepia(55%) saturate(3136%) hue-rotate(0deg) brightness(105%) contrast(101%);
 }
 
-#logo2 {
-    width: 380px;
-}
-
 .contenido-header nav ul {
     list-style: none;
     display: flex;
@@ -112,10 +108,6 @@ html {
 
 .presentacion {
     color: #fff;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
 }
 
 .bienvenida {
@@ -135,17 +127,12 @@ html {
 
 .presentacion div {
     max-width: 40vw;
+    margin: auto;
 }
 
-.imagen-presentacion {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.imagen-presentacion a{
+.text a{
+    display: block;
+    text-align: center;
     text-decoration: none;
     font-family: Comfortaa;
     color: #ffffff;
@@ -155,9 +142,10 @@ html {
     font-weight: bold;
     text-transform: uppercase;
     transition: .5s;
+    margin: 10px 70px;
 }
 
-.imagen-presentacion a:hover{
+.text a:hover{
     background-color: #ffc400;
 }
 
@@ -177,7 +165,7 @@ html {
 }
 
 #sobremi .contenedor-foto {
-    max-width: 400px;
+    width: 400px;
     margin-right: 80px;
 }
 
