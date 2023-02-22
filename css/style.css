@@ -242,3 +242,39 @@ html {
     background-color: #FFC400;
     color: #fff;
 }
+
+#experiencia {
+    /*background: #3d3e42;
+    color: #9099a0;*/
+    background: #535458;
+    color: #fff;
+}
+
+#experiencia .conteiner-exp {
+    max-width: 1300px;
+    margin: auto;
+}
+
+#experiencia .experiencia-titulo {
+    text-align: center;
+    padding: 60px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #FFC300;
+}
+
+.experiencia {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.columna-empleo {
+    max-width: 600px;
+}
+
+.experiencia h4 {
+    color: #ffe17e;
+    font-weight: bold;
+}
