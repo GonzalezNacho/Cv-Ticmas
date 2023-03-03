@@ -303,6 +303,6 @@ footer .conteiner-footer a:hover {
     color: #ffe17e;
 }
 
-footer .conteiner-footer div {
+footer .conteiner-footer, .conteiner-footer div {
     margin: auto;
 }
