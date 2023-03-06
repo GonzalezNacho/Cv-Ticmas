@@ -1,5 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="#00000" viewBox="0 0 508.01 753.69"><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1">
-<path class="cls-1" d="M336,118.49v75.56H285.65V445.91H336v75.56H184.9v-403Z"/>
-<path class="cls-1" d="M508,119.48V753.36l-151.12.33V673.06h50.37V193.33l-50.37-.79v-74Z"/>
-<path class="cls-1" d="M151.12,114.74v403H0V442.16H50.37V190.3H0V114.74Z"/><rect class="cls-1" x="42.75" width="91.54" height="91.54"/>
-<path class="cls-1" d="M336,552.2V590H285.65V715.91H336v37.78H184.9V552.2Z"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-terminal" viewBox="0 0 16 16">
+  <path d="M6 9a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3A.5.5 0 0 1 6 9zM3.854 4.146a.5.5 0 1 0-.708.708L4.793 6.5 3.146 8.146a.5.5 0 1 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2z"/>
+  <path d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h12z"/>
+</svg>
