@@ -324,7 +324,7 @@ footer .conteiner-footer, .conteiner-footer div {
 
     nav.responsive {
         display: block ;
-        background-color: rgba(0,0,0,.8);
+        background-color: #3e087cb0;
         width: 100%;
         position: absolute;
         top: 60px;
