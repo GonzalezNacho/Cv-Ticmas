@@ -318,8 +318,27 @@ footer .conteiner-footer, .conteiner-footer div {
         display: none;
     }
 
-    #nav {
+    nav {
         display: none;
+    }
+
+    nav.responsive {
+        display: block ;
+        background-color: rgba(0,0,0,.8);
+        width: 100%;
+        position: absolute;
+        top: 79px;
+        left: 0;
+        padding: 10px 0;
+    }
+
+    nav.responsive ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav.resposive ul li {
+        margin: 5px 0;
     }
 
     #icon-nav {
