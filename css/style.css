@@ -26,7 +26,7 @@ html {
 }
 
 #inicio .contenido header {
-    background-color: rgba(0,0,0,.8);
+    background-color: #3e087cb0;
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -44,7 +44,7 @@ html {
 
 #logo {
     width: 40px;
-    filter: invert(79%) sepia(55%) saturate(3136%) hue-rotate(0deg) brightness(105%) contrast(101%);
+    filter: invert(50%) sepia(25%) saturate(961%) hue-rotate(85deg) brightness(91%) contrast(91%);
 }
 
 .contenido-header nav ul {
@@ -67,7 +67,7 @@ html {
 }
 
 .contenido-header nav ul  li a:hover {
-    color: #FFC300;
+    color: #379452;
 }
 
 .redes, .redes-footer {
@@ -85,13 +85,13 @@ html {
 }
 
 .redes a i, .redes-footer a i {
-    color: #FFC300;
+    color: #379452;
     font-size: 1.3em;
     transition: .4s;
 }
 
 .redes a i:hover, .redes-footer a i:hover {
-    color: #ffe17e;
+    color: #48E075;
     font-size: 2em;
 }
 .conteiner {
@@ -146,7 +146,7 @@ html {
 }
 
 .text a:hover, #contacto .btn-enviar:hover{
-    background-color: #ffc400;
+    background-color: #379452;
 }
 
 .descripcion{
@@ -198,7 +198,7 @@ html {
 }
 
 #sobremi .sobremi h2 span {
-    color: #FFC300;
+    color: #379452;
 }
 
 #sobremi .sobremi h3 {
@@ -228,14 +228,14 @@ html {
 }
 
 #sobremi .sobremi a:hover {
-    background-color: #FFC400;
+    background-color: #379452;
     color: #fff;
 }
 
 #experiencia {
     /*background: #3d3e42;
     color: #9099a0;*/
-    background: #535458;
+    background: #460393;
     color: #fff;
 }
 
@@ -250,7 +250,7 @@ html {
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #FFC300;
+    color: #379452;
 }
 
 .experiencia {
@@ -264,7 +264,7 @@ html {
 }
 
 .experiencia h4 {
-    color: #ffe17e;
+    color: #48E075;
     font-weight: bold;
 }
 
@@ -289,7 +289,7 @@ html {
 
 footer {
     padding-top: 40px;
-    background: #3d3e42;
+    background: #310f58;
     color: #ffffff;
 }
 
@@ -300,12 +300,12 @@ footer .conteiner-footer {
 
 footer .conteiner-footer a {
     text-decoration: none;
-    color: #FFC300;
+    color: #379452;
     transition: .5s;
 }
 
 footer .conteiner-footer a:hover {
-    color: #ffe17e;
+    color: #48E075;
 }
 
 footer .conteiner-footer, .conteiner-footer div {
@@ -343,7 +343,7 @@ footer .conteiner-footer, .conteiner-footer div {
 
     #icon-nav {
         display:block;
-        color: #FFC300;
+        color: #379452;
     }
 
     .presentacion .text h2{
