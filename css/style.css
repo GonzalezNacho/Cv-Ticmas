@@ -62,17 +62,21 @@ html {
     transition: .5s;
 }
 
+#icon-nav {
+    display: none;
+}
+
 .contenido-header nav ul  li a:hover {
     color: #FFC300;
 }
 
-.redes {
+.redes, .redes-footer {
     width: 100px;
     height: 40px;
     display: flex;
 }
 
-.redes div {
+.redes div, .redes-footer div {
     width: 33%;
     height: 100%;
     display: flex;
@@ -80,13 +84,13 @@ html {
     align-items: center;
 }
 
-.redes a i {
+.redes a i, .redes-footer a i {
     color: #FFC300;
     font-size: 1.3em;
     transition: .4s;
 }
 
-.redes a i:hover {
+.redes a i:hover, .redes-footer a i:hover {
     color: #ffe17e;
     font-size: 2em;
 }
@@ -158,6 +162,7 @@ html {
     padding: 100px 15px;
     color: #111135;
     display: flex;
+    flex-direction: row;
 }
 
 #sobremi .contenedor-foto {
@@ -305,4 +310,37 @@ footer .conteiner-footer a:hover {
 
 footer .conteiner-footer, .conteiner-footer div {
     margin: auto;
+}
+
+/* responsive */
+@media screen and (max-width: 800px) {
+    .redes {
+        display: none;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    #icon-nav {
+        display:block;
+        color: #FFC300;
+    }
+
+    .presentacion .text h2{
+        font-size: 30px;
+    }
+
+    .presentacion div {
+        max-width: 100vw;
+    }
+
+    #sobremi {
+        flex-direction: column;
+    }
+
+    #sobremi .contenedor-foto {
+        width: 250px;
+        margin: 10px auto 50px;
+    }
 }
