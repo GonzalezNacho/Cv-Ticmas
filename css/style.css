@@ -26,7 +26,7 @@ html {
 }
 
 #inicio .contenido header {
-    background-color: #3e087cb0;
+    background-color: #08317cb0;
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -51,6 +51,7 @@ html {
     list-style: none;
     display: flex;
     align-items: center;
+    margin:auto;
 }
 
 .contenido-header nav ul  li a{
@@ -85,7 +86,7 @@ html {
 }
 
 .redes a i, .redes-footer a i {
-    color: #379452;
+    color: #ffffff;
     font-size: 1.3em;
     transition: .4s;
 }
@@ -235,7 +236,7 @@ html {
 #experiencia {
     /*background: #3d3e42;
     color: #9099a0;*/
-    background: #460393;
+    background: #036493;
     color: #fff;
 }
 
@@ -246,6 +247,7 @@ html {
 
 #experiencia .experiencia-titulo, #contacto .titulo-seccion {
     text-align: center;
+    text-shadow: 0.1px 0.1px 0.5px #ffffff;
     padding: 60px;
     font-size: 20px;
     text-transform: uppercase;
@@ -257,6 +259,10 @@ html {
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
+}
+
+.experiencia div {
+    padding: 15px;
 }
 
 .columna-empleo {
@@ -289,7 +295,7 @@ html {
 
 footer {
     padding-top: 40px;
-    background: #310f58;
+    background: #036493;
     color: #ffffff;
 }
 
@@ -300,7 +306,7 @@ footer .conteiner-footer {
 
 footer .conteiner-footer a {
     text-decoration: none;
-    color: #379452;
+    color: #ffffff;
     transition: .5s;
 }
 
@@ -324,7 +330,7 @@ footer .conteiner-footer, .conteiner-footer div {
 
     nav.responsive {
         display: block ;
-        background-color: #3e087cb0;
+        background-color: #08317cb0;
         width: 100%;
         position: absolute;
         top: 60px;
